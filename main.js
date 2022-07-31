@@ -36,7 +36,7 @@ function blackjackHit() {
 function showCard(rn,activePlayer) {
     if (activePlayer['score'] <= 21){
     let cardImage = document.createElement("img");
-    cardImage.src = `../Black Jack/images/${rn}.png`;
+    cardImage.src = `/Black Jack/images/${rn}.png`;
     document.querySelector(activePlayer["div"]).appendChild(cardImage)
     }
 }
